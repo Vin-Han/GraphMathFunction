@@ -138,6 +138,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="GraphMath.h" />
+    <ClInclude Include="NMatrix3.h" />
+    <ClInclude Include="NMatrix4.h" />
+    <ClInclude Include="NQuaternion.h" />
+    <ClInclude Include="NVector2.h" />
+    <ClInclude Include="NVector3.h" />
+    <ClInclude Include="NVector4.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NMatrix3.cpp" />
+    <ClCompile Include="NMatrix4.cpp" />
+    <ClCompile Include="NQuaternion.cpp" />
+    <ClCompile Include="testMain.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
