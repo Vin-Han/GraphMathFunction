@@ -1,4 +1,4 @@
-#include"GraphMath.h"
+#include"NCLGraphMath.h"
 
 void main() {
 }

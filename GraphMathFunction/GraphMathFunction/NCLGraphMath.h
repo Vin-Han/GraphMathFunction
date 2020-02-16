@@ -5,7 +5,6 @@
 #include "NVector4.h"
 #include "NQuaternion.h"
 #include "NMatrix4.h"
-#include "NMatrix3.h"
 
 inline NVector2	operator*(const float a, const NVector2 v2) {
 	NVector2 result = NVector2();
