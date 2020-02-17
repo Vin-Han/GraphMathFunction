@@ -40,7 +40,7 @@ public:
 		z = -z;
 	}
 	NVector3	Inverse() const { return NVector3(-x, -y, -z);}
-
+	/*
 	void		FromRGB() {
 		if (x > 255.0f) x = 1.0f;
 		else if (x < 0.0f) x = 0.0f;
@@ -54,6 +54,7 @@ public:
 		else if (z < 0.0f) z = 0.0f;
 		else z = z / 255.0f;
 	}
+	*/
 	NVector3	FromRGB() const {
 		NVector3 rbgVector;
 		if (x > 255.0f) rbgVector.x = 1.0f;
@@ -69,7 +70,7 @@ public:
 		else rbgVector.z = z / 255.0f;
 		return rbgVector;
 	}
-
+	/*
 	void		ToRGB() {
 		if (x > 1.0f) x = 255.0f;
 		else if (x < 0.0f) x = 0.0f;
@@ -83,6 +84,7 @@ public:
 		else if (z < 0.0f) z = 0.0f;
 		else z = z * 255.0f;
 	}
+	*/
 	NVector3	ToRGB() const {
 		NVector3 rbgVector;
 		if (x > 1.0f) rbgVector.x = 255.0f;

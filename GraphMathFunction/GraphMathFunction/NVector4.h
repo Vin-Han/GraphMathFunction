@@ -37,7 +37,7 @@ public:
 		w = -w;
 	}
 	NVector4	Inverse() const { return NVector4(-x, -y, -z,-w); }
-
+	/*
 	void		FromRGBA() {
 		if (x > 255.0f) x = 1.0f;
 		else if (x < 0.0f) x = 0.0f;
@@ -54,6 +54,7 @@ public:
 		if (w > 1.0f) w = 1.0f;
 		else if (w < 0.0f) w = 0.0f;
 	}
+	*/
 	NVector4	FromRGBA() const {
 		NVector4 rbgVector;
 		if (x > 255.0f) rbgVector.x = 1.0f;
@@ -73,7 +74,7 @@ public:
 
 		return rbgVector;
 	}
-
+	/*
 	void		ToRGBA() {
 		if (x > 1.0f) x = 255.0f;
 		else if (x < 0.0f) x = 0.0f;
@@ -90,6 +91,7 @@ public:
 		if (w > 1.0f) w = 1.0f;
 		else if (w < 0.0f) w = 0.0f;
 	}
+	*/
 	NVector4	ToRGBA() const {
 		NVector4 rbgVector;
 		if (x > 1.0f) rbgVector.x = 255.0f;

@@ -144,6 +144,7 @@
     <ClInclude Include="NVector2.h" />
     <ClInclude Include="NVector3.h" />
     <ClInclude Include="NVector4.h" />
+    <ClInclude Include="OtherCommonFunction.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NMatrix4.cpp" />
